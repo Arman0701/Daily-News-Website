@@ -1,0 +1,49 @@
+@import "./sass/variables.scss";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	user-select: none;
+	color: white;
+	font-family: "Montserrat", sans-serif;
+}
+
+body {
+	background: $-bg-dark;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 3px;
+	background: $-white-02;
+}
+
+::-webkit-scrollbar-track {
+	background: #000;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+input, textarea, button {
+	color: white;
+	font-family: "Montserrat", sans-serif;
+	outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+p {
+	font-weight: 100;
+}
